@@ -1,1 +1,110 @@
-
+@import url(#);
+*{
+    font-family: #; 
+    font-weight: #; 
+    color: #; 
+    box-sizing: border-box;
+    }
+#container{
+    display: grid;
+    height: 100;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-gap: 0.2fr;
+    grid-template-areas: "header" "main";
+    background-color: #;
+    margin: # auto;
+    padding: #;    
+    }
+#header{
+    grid-area: header;
+    background-color: #;
+    }
+#main{
+    grid-area: main;
+    position: relative;
+    background-color: #;
+    }
+.logo{
+    display: inline-block;
+    border: solid thin #;
+    width: #;
+    height: #;
+    margin: #;
+    padding: #;
+    }
+.top menu{
+    display: inline-block;
+    list-style: none;
+    border: solid thin #;
+    width: #;
+    height: #;
+    margin: #;
+    padding: #;
+    }
+.privacy{
+    background-color: #;
+    background-clip: padding-box;
+    }
+.private data{
+    display: inline-block;
+    position: absolute;
+    top: #;
+    right: #;
+    bottom: #;
+    left: #;
+    width: #;
+    height:#;
+    }
+table{
+    display: inline-block;
+    border: none;
+    border-collapse: collapse;
+    width: #;
+    height: #;
+    margin: #;
+    }
+td{
+    border: solid thin #;
+    border-spacing: 0% #%;
+    text-align: center;
+    }
+col:nth-child(1){
+    border-style: solid solid solid none;
+    width: #;
+    }
+col:nth-child(2){
+    border-style: solid none solid solid;
+    width: #;
+    }
+.button{
+    display: inline-block;
+    list-style: none;
+    border: solid thin #;
+    width: #;
+    height: #;
+    margin: #;
+    padding: #;
+    }
+.explanation{
+    display: inline-block;
+    position: absolute;
+    top: #;
+    right: #;
+    bottom: #;
+    left: #;
+    width: #;
+    height:#;
+    padding: #;
+    }
+.etc{
+    display: inline-block;
+    position: absolute;
+    top: #;
+    right: #;
+    bottom: #;
+    left: #;
+    width: #;
+    height:#;
+    padding: #;
+    }
