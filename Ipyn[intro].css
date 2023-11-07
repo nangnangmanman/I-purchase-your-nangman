@@ -7,10 +7,11 @@
     }
 #container{
     display: grid;
-    height: 100;
+    width: 85vw;
+    height: 80vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr;
-    grid-gap: 0.2fr;
+    grid-gap: 0.4fr;
     grid-template-areas: "header" "main";
     background-color: #;
     margin: # auto;
@@ -28,25 +29,31 @@
 .logo{
     display: inline-block;
     border: solid thin #;
-    width: #;
-    height: #;
-    margin: #;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
     padding: #;
     }
 .top menu{
     display: inline-block;
     list-style: none;
     border: solid thin #;
-    width: #;
-    height: #;
-    margin: #;
+    width: auto;
+    height: auto;
+    margin-right: 7.5vw;
+    margin-bottom: 0;
+    margin-left: 7.5vw;
     padding: #;
+    }
+li:last-child{
+    margin-right: 0;
     }
 .intro{
     background: url(#) no-repeat center padding-box;
     background-size: 100% 100%;
     }
-.intoduction{
+.introduction{
     text-align: center;
     line-height: 120%;
     }

@@ -7,10 +7,11 @@
     }
 #container{
     display: grid;
-    height: 100;
+    width: 85vw;
+    height: 80vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr;
-    grid-gap: 0.2fr;
+    grid-gap: 0.4fr;
     grid-template-areas: "header" "main";
     background-color: #;
     margin: # auto;
@@ -28,43 +29,49 @@
 .logo{
     display: inline-block;
     border: solid thin #;
-    width: #;
-    height: #;
-    margin: #;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
     padding: #;
     }
 .top menu{
     display: inline-block;
     list-style: none;
     border: solid thin #;
-    width: #;
-    height: #;
-    margin: #;
+    width: auto;
+    height: auto;
+    margin-right: 7.5vw;
+    margin-bottom: 0;
+    margin-left: 7.5vw;
     padding: #;
+    }
+li:last-child{
+    margin-right: 0;
     }
 .writing{
     background-color: #;
     background-clip: padding-box;
     }
 .setting{
-    width: #;
-    height: #;
-    margin: # auto;
+    width: 65vw;
+    height: 20vh;
+    margin: 2vh auto;
     padding: #;
     }
 .option button{
     display: inline-block;
     list-style: none;
     border: solid thin #;
-    width: #;
-    height: #;
-    margin: #;
+    width: auto;
+    height: auto;
+    margin: 2vh auto;
     padding: #;
     }
 .writing area{
     border: solid thin #;
-    width: #;
-    height: #;
+    width: 65vw;
+    height: 50vh;
     margin: # auto;
     padding: #;
     }

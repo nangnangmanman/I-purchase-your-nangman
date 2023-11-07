@@ -7,10 +7,11 @@
     }
 #container{
     display: grid;
-    height: 100;
+    width: 85vw;
+    height: 80vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr;
-    grid-gap: 0.2fr;
+    grid-gap: 0.4fr;
     grid-template-areas: "header" "main";
     background-color: #;
     margin: # auto;
@@ -28,27 +29,36 @@
 .logo{
     display: inline-block;
     border: solid thin #;
-    width: #;
-    height: #;
-    margin: #;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
     padding: #;
     }
 .top menu{
     display: inline-block;
     list-style: none;
     border: solid thin #;
-    width: #;
-    height: #;
-    margin: #;
+    width: auto;
+    height: auto;
+    margin-right: 7.5vw;
+    margin-bottom: 0;
+    margin-left: 7.5vw;
     padding: #;
+    }
+li:last-child{
+    margin-right: 0;
     }
 .reading{
     background-color: #;
     background-clip: padding-box;
     }
 .name{
+    display: inline-block;
     position: relative;
     text-decoration: underline;
+    width: auto;
+    height: auto;
     margin: # auto;
     padding: #;
     }
@@ -56,22 +66,21 @@
     display: inline-block;
     text-decoration: underline;
     position: absolute;
-    top: #;
-    right: #;
-    bottom: #;
-    left: #;
-    width: #;
-    height:#;
-    margin: #;
-    padding: #;
+    right: 30vw;
+    bottom: 2vh;
+    width: auto;
+    height: auto;
     }
 .reading area{
+    width: 70vw;
+    height: 45vh;
     margin: # auto;
     padding: #;
     }
 .end{
-    width: #;
-    height:#;
+    display: inline-block;
+    width: auto;
+    height: auto;
     margin: # auto;
     padding: #;
     }
@@ -79,8 +88,13 @@
     display: inline-block;
     list-style: none;
     border: solid thin #;
-    width: #;
-    height: #;
-    margin: #;
+    width: auto;
+    height: auto;
     padding: #;
+    }
+li:first-child{
+    margin-left: 0;
+    }
+li:last-child{
+    margin-right: 0;
     }
