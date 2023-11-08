@@ -42,7 +42,7 @@
     width: auto;
     height: auto;
     margin-right: 7.5vw;
-    margin-bottom: 0;
+    mcss(css-lcurlyexpected)argin-bottom: 0;
     margin-left: 7.5vw;
     padding: #;
     }

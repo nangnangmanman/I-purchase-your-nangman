@@ -55,63 +55,67 @@ li:last-child{
     }
 .private data{
     display: inline-block;
-    position: absolute;
-    top: #;
-    right: #;
-    bottom: #;
-    left: #;
-    width: #;
-    height:#;
+    position: relative;
+    width: auto;
+    height:auto;
+    margin-left: 20vw;
     }
 table{
     display: inline-block;
     border: none;
     border-collapse: collapse;
-    width: #;
-    height: #;
-    margin: #;
+    width: auto;
+    height: auto;
     }
 td{
     border: solid thin #;
-    border-spacing: 0% #%;
+    border-spacing: 0 2.5vh;
     text-align: center;
     }
 col:nth-child(1){
     border-style: solid solid solid none;
-    width: #;
+    width: 25%;
     }
 col:nth-child(2){
     border-style: solid none solid solid;
-    width: #;
+    width: 75%;
     }
-.button{
+.revise{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: # auto;
+    padding: #;
+    }
+.revise button{
     display: inline-block;
     list-style: none;
     border: solid thin #;
-    width: #;
-    height: #;
-    margin: #;
+    width: auto;
+    height: auto;
     padding: #;
+    }
+li:first-child{
+    margin-left: 0;
+    }
+li:last-child{
+    margin-right: 0;
     }
 .explanation{
     display: inline-block;
     position: absolute;
     top: #;
     right: #;
-    bottom: #;
-    left: #;
-    width: #;
-    height:#;
+    width: auto;
+    height: auto;
     padding: #;
     }
 .etc{
     display: inline-block;
     position: absolute;
-    top: #;
     right: #;
     bottom: #;
-    left: #;
-    width: #;
-    height:#;
+    width: auto;
+    height: auto;
     padding: #;
     }
