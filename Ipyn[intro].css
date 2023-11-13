@@ -1,59 +1,72 @@
 @import url(#);
 *{
     font-family: #; 
-    font-weight: #;     
-    color: #; 
+    font-weight: 500;     
+    color: : black; 
     box-sizing: border-box;
     }
 #container{
     display: grid;
+    border-style: none;
     width: 85vw;
     height: 80vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr;
-    grid-gap: 0.4fr;
+    grid-gap: 1/3fr;
     grid-template-areas: "header" "main";
-    background-color: #;
-    margin: # auto;
-    padding: #;    
+    background-color: white;
+    margin: 10vh auto;
+    padding: 0;    
     }
 #header{
     grid-area: header;
-    background-color: #;
+    border-style: none;
+    background-color: white;
+    background-clip: padding-box;
     }
 #main{
     grid-area: main;
     position: relative;
-    background-color: #;
+    border: solid thin black;
+    background-color: white;
+    background-clip: padding-box;
     }
 .logo{
     display: inline-block;
-    border: solid thin #;
+    border: solid thin black;
     width: auto;
     height: auto;
     margin-bottom: 0;
     margin-left: 0;
-    padding: #;
+    padding: auto;
     }
 .top menu{
     display: inline-block;
     list-style: none;
-    border: solid thin #;
+    border: solid thin black;
     width: auto;
     height: auto;
-    margin-right: 7.5vw;
+    margin-right: 2.5vw;
     margin-bottom: 0;
-    margin-left: 7.5vw;
-    padding: #;
+    margin-left: 2.5vw;
+    padding: auto;
+    }
+li:first-child{
+    margin-left: 15vw;
     }
 li:last-child{
     margin-right: 0;
     }
 .intro{
+    border-style: none;
     background: url(#) no-repeat center padding-box;
     background-size: 100% 100%;
     }
 .introduction{
+    position: absolute;
+    border-style: none;
     text-align: center;
-    line-height: 120%;
+    line-height: 110%;
+    top: 50%;
+    transform: translate(0,-50%);
     }

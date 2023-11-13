@@ -1,96 +1,104 @@
 @import url(#);
 *{
     font-family: #; 
-    font-weight: #;     
-    color: #; 
+    font-weight: 500;     
+    color: : black; 
     box-sizing: border-box;
     }
 #container{
     display: grid;
+    border-style: none;
     width: 85vw;
     height: 80vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr;
-    grid-gap: 0.4fr;
+    grid-gap: 1/3fr;
     grid-template-areas: "header" "main";
-    background-color: #;
-    margin: # auto;
-    padding: #;    
+    background-color: white;
+    margin: 10vh auto;
+    padding: 0;    
     }
 #header{
     grid-area: header;
-    background-color: #;
+    border-style: none;
+    background-color: white;
+    background-clip: padding-box;
     }
 #main{
     grid-area: main;
     position: relative;
-    background-color: #;
+    border: solid thin black;
+    background-color: white;
+    background-clip: padding-box;
     }
 .logo{
     display: inline-block;
-    border: solid thin #;
+    border: solid thin black;
     width: auto;
     height: auto;
     margin-bottom: 0;
     margin-left: 0;
-    padding: #;
+    padding: auto;
     }
 .top menu{
     display: inline-block;
     list-style: none;
-    border: solid thin #;
+    border: solid thin black;
     width: auto;
     height: auto;
-    margin-right: 7.5vw;
-    mcss(css-lcurlyexpected)argin-bottom: 0;
-    margin-left: 7.5vw;
-    padding: #;
+    margin-right: 2.5vw;
+    margin-bottom: 0;
+    margin-left: 2.5vw;
+    padding: auto;
+    }
+li:first-child{
+    margin-left: 15vw;
     }
 li:last-child{
     margin-right: 0;
     }
-.reading{
-    background-color: #;
-    background-clip: padding-box;
-    }
-.name{
+.title{
     display: inline-block;
-    position: relative;
+    border-style: none;
+    text-align: center;
     text-decoration: underline;
     width: auto;
     height: auto;
-    margin: # auto;
-    padding: #;
+    margin-top: 2.5vh;
+    padding: 0;
     }
 .date{
     display: inline-block;
+    border-style: none;
     text-decoration: underline;
-    position: absolute;
-    right: 30vw;
-    bottom: 2vh;
     width: auto;
     height: auto;
+    margin-top: 5vh;
+    margin-right: 10vw;
+    padding: 0;
     }
 .reading area{
-    width: 70vw;
-    height: 45vh;
-    margin: # auto;
-    padding: #;
+    border-style: none;
+    width: 75vw;
+    height: 30vh;
+    margin: 7.5vh auto 5vh;
+    padding: 0;
     }
 .end{
     display: inline-block;
+    border-style: none;
     width: auto;
     height: auto;
-    margin: # auto;
-    padding: #;
+    margin: 5vh auto;
+    padding: 0;
     }
 .end button{
     display: inline-block;
     list-style: none;
-    border: solid thin #;
+    border: solid thin black;
     width: auto;
     height: auto;
-    padding: #;
+    padding: auto;
     }
 li:first-child{
     margin-left: 0;

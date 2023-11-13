@@ -1,77 +1,88 @@
 @import url(#);
 *{
     font-family: #; 
-    font-weight: #;     
-    color: #; 
+    font-weight: 500;     
+    color: : black; 
     box-sizing: border-box;
     }
 #container{
     display: grid;
+    border-style: none;
     width: 85vw;
     height: 80vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr;
-    grid-gap: 0.4fr;
+    grid-gap: 1/3fr;
     grid-template-areas: "header" "main";
-    background-color: #;
-    margin: # auto;
-    padding: #;    
+    background-color: white;
+    margin: 10vh auto;
+    padding: 0;    
     }
 #header{
     grid-area: header;
-    background-color: #;
+    border-style: none;
+    background-color: white;
+    background-clip: padding-box;
     }
 #main{
     grid-area: main;
     position: relative;
-    background-color: #;
+    border: solid thin black;
+    background-color: white;
+    background-clip: padding-box;
     }
 .logo{
     display: inline-block;
-    border: solid thin #;
+    border: solid thin black;
     width: auto;
     height: auto;
     margin-bottom: 0;
     margin-left: 0;
-    padding: #;
+    padding: auto;
     }
 .top menu{
     display: inline-block;
     list-style: none;
-    border: solid thin #;
+    border: solid thin black;
     width: auto;
     height: auto;
-    margin-right: 7.5vw;
+    margin-right: 2.5vw;
     margin-bottom: 0;
-    margin-left: 7.5vw;
-    padding: #;
+    margin-left: 2.5vw;
+    padding: auto;
+    }
+li:first-child{
+    margin-left: 15vw;
     }
 li:last-child{
     margin-right: 0;
     }
-.writing{
-    background-color: #;
-    background-clip: padding-box;
-    }
 .setting{
-    width: 65vw;
-    height: 20vh;
-    margin: 2vh auto;
-    padding: #;
+    border-style: none;
+    width: 75vw;
+    height: 15vh;
+    margin: 2.5vh auto 5vh;
+    padding: 0;
     }
 .option button{
     display: inline-block;
     list-style: none;
-    border: solid thin #;
+    border: solid thin black;
     width: auto;
     height: auto;
-    margin: 2vh auto;
-    padding: #;
+    margin: 0 6vw;
+    padding: 0.2vh 2vw;
+    }
+li:first-child{
+    margin-left: 12vw;
+    }
+li:last-child{
+    margin-right: 12vw;
     }
 .writing area{
-    border: solid thin #;
-    width: 65vw;
-    height: 50vh;
-    margin: # auto;
-    padding: #;
+    border: solid thin black;
+    width: 75vw;
+    height: 35vh;
+    margin: 2.5vh auto;
+    padding: 5vh;
     }
