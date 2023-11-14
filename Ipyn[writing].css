@@ -40,7 +40,7 @@
     margin-left: 0;
     padding: auto;
     }
-.top menu{
+.top-menu{
     display: inline-block;
     list-style: none;
     border: solid thin black;
@@ -64,7 +64,7 @@ li:last-child{
     margin: 2.5vh auto 5vh;
     padding: 0;
     }
-.option button{
+.option-button{
     display: inline-block;
     list-style: none;
     border: solid thin black;
@@ -79,7 +79,7 @@ li:first-child{
 li:last-child{
     margin-right: 12vw;
     }
-.writing area{
+.writing-area{
     border: solid thin black;
     width: 75vw;
     height: 35vh;

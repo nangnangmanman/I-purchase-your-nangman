@@ -40,7 +40,7 @@
     margin-left: 0;
     padding: auto;
     }
-.top menu{
+.top-menu{
     display: inline-block;
     list-style: none;
     border: solid thin black;
@@ -57,74 +57,81 @@ li:first-child{
 li:last-child{
     margin-right: 0;
     }
-.notice boards{
-    background-color: #;
-    background-clip: padding-box;
-    }
 .theme{
-    display: inline-block;
-    position: relative;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    padding: 2vh;
+    border-style: none;
+    text-align: center;
+    margin-top: 2.5vh;
+    padding: 0;
     }
-.writing button{
+.writing-button{
     display: inline-block;
-    border: solid thin #;
-    position: absolute;
-    bottom: #;
-    left: #;
+    border: solid thin black;
     width: auto;
     height: auto;
-    padding: #;
+    margin-top: 0;
+    margin-left: 10vw;
+    padding: auto;
     }
 .search{
     display: inline-block;
-    border: solid thin #;
-    position: absolute;
-    right: #;
-    bottom: #;
+    border: solid thin black;
     width: auto;
     height: auto;
-    padding: #;
+    margin-top: 0;
+    margin-right: 5vw;
+    padding: auto;
     }
 .list{
-    width: 85vw;
-    height: 45vh;
-    margin: # auto;
-    padding: #;
+    border-style: none;
+    width: 75vw;
+    height: 42.5vh;
+    margin: 2.5 auto;
+    padding: 0;
     }
 table{
     display: inline-block;
-    border: none;
+    border-style: none;
     border-collapse: collapse;
     width: auto;
     height: auto;
-    padding: #;
     }
 td{
     border: none;
     text-align: center;
+    padding: auto;
     }
 col:nth-child(1){
     width: 15%;
     }
 col:nth-child(2){
-    width: 70%;
+    width: 65%;
     }
 col:nth-child(3){
-    width: 15%;
+    width: 20%;
     }
 row:nth-child(1){
-    border-bottom-style: solid thin #;
+    border-bottom-style: solid thin black;
     }
-.list number button{
+.chapter{
     display: inline-block;
-    list-style: none;
-    border: solid thin #;
+    border-style: none;
     width: auto;
     height: auto;
     margin: # auto;
-    padding: #;
+    padding: 0;
+    }
+.list-number-button{
+    display: inline-block;
+    list-style: none;
+    border: solid thin black;
+    width: auto;
+    height: auto;
+    margin: 0 1vw;
+    padding: auto;
+    }
+li:first-child{
+    margin-left: 0;
+    }
+li:last-child{
+    margin-right: 0;
     }
